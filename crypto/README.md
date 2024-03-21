@@ -1,10 +1,10 @@
-NOTE: My wife and I use this utility to encrypt and decrypt files we need share
-between ourselves. We are both windows users and in tech. It is simple enough to
-use while allowing us to do it in a secure way. We also use it to encrypt files
-that we need to store on a shared drive. The directions below were written for
-our use but can be used by anyone. I am also not a seasoned golang, so if you
-see a better way to do something, feel free to keep it to yourself ... jk, feel
-free to let me know.
+NOTE: My wife and I use this utility to encrypt and decrypt files we need to
+share between ourselves. We are both windows users and in tech. It is simple
+enough to use while allowing us to do it in a secure way. We also use it to
+encrypt files that we need to store on a shared drive. The directions below were
+written for our use but can be used by anyone. I am also not a seasoned golang,
+so if you see a better way to do something, feel free to keep it to yourself ...
+jk, feel free to let me know.
 
 Make sure to copy the folder '.mnemonic' to your users folder. Typically
 c:\users\<user_name>. You should also be able to see what folder your users

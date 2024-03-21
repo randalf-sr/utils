@@ -1,4 +1,4 @@
-module rutils
+module fcd
 
 go 1.20
 

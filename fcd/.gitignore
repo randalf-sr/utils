@@ -2,3 +2,4 @@
 /rutils.exe
 *.exe
 passwords.*
+.local

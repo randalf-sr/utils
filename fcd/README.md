@@ -27,7 +27,7 @@ To encrypt a file called 'passwords.txt', a mnemonic key file called
 command:
 
 ```
-rutils -a enc -s passwords.txt -m our_shared_file_key -p mySecretPassword123!
+.\fcd -e -s passwords.txt -t passwords.txt.encrypted -m our_shared_file_key -p mySecretPassword123!
 ```
 
 To decrypt a file called 'passwords.txt', a mnemonic key file called
@@ -35,7 +35,7 @@ To decrypt a file called 'passwords.txt', a mnemonic key file called
 command:
 
 ```
-rutils -a -enc -s passwords.txt.encrypted -m our_shared_file_key -p mySecretPassword123!
+.\fcd -d -s passwords.txt.encrypted -t passwords.txt -m our_shared_file_key -p mySecretPassword123!
 ```
 
 Don't forget to delete the original file after encrypting the original file.
